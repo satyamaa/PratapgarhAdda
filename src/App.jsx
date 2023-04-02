@@ -1,18 +1,17 @@
 import React from 'react'
 import './App.css'
-import Header from './Header'
+import Header from './Components/Header'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Cards from './Cards';
+import RootIndex from './RootIndex';
 
 function App() {
 
   return (
-    <><>
-
+    <>
       <Header />
-    </><><div>
-      <Cards />
-    </div></></>
+      <RootIndex/>
+    </>
+
       
 
   )
